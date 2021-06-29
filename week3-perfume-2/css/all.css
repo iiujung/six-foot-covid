@@ -1,0 +1,375 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* reset end _______________________________________________ */
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: gray;
+  font-size: 20px;
+  line-height: 30px;
+}
+.header ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header ul .material-icons {
+  margin-left: 31px;
+}
+.header ul a {
+  color: #8d8d8d;
+  text-decoration: none;
+}
+
+.menu {
+  background-color: #916000;
+}
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 30px;
+}
+.menu ul li {
+  padding: 14px 28px 14px 0;
+}
+
+.photo {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.photo li {
+  max-width: 255px;
+  padding-bottom: 58px;
+}
+.photo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 255px;
+  height: 255px;
+}
+.photo h3 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.photo p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+}
+.photo span {
+  color: #8d8d8d;
+  font-size: 16px;
+  line-height: 24px;
+}
+.photo .material-icons {
+  color: #916019;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+}
+.list a {
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  margin: auto 10px;
+  text-decoration: none;
+}
+.list a:hover {
+  color: #916019;
+  font-size: 20px;
+  line-height: 30px;
+  border-bottom: 1px solid #916019;
+}
+
+.content-3 {
+  margin-top: 40px;
+  background-size: cover;
+  background-position: center;
+}
+.content-3 .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content-3 .information h2 {
+  color: #000000;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 48px;
+  padding-top: 312px;
+  padding-left: 16px;
+  color: #8d8d8d;
+}
+.content-3 .information .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 112px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.content-3 .information .white a {
+  background-color: #ffffff;
+  border: 2px solid #ac8a46;
+  color: #8d8d8d;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 21px;
+  padding-left: 16px;
+  padding-bottom: 20px;
+  padding-right: 57px;
+  text-decoration: none;
+}
+.content-3 .information .white a:hover {
+  background: #e6e6e6;
+}
+.content-3 .information .yellow a {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #916000;
+  border: 2px solid #916000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 21px;
+  padding-left: 27px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+  text-decoration: none;
+}
+.content-3 .information .yellow a:hover {
+  background: #5e3e00;
+}
+
+.footer {
+  background: #916000;
+}
+.footer .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .foot img {
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+.footer .foot .word {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+.footer .foot .word p {
+  padding-left: 20px;
+  padding-right: 500px;
+  font-size: 16px;
+}
+.footer .foot .word ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer .foot .word ul li {
+  padding-left: 36px;
+}
+.footer .foot .word ul a {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
